@@ -1,0 +1,22 @@
+REACT200_MovieFinder
+
+https://dev.to/ericnormand/global-mutable-state
+- Turn global variables into local variables
+	- This means that a new instance is created each time the code runs
+	- Encapsulate variables within a function
+- Question Necessity of Mutability
+	- Pass in current value as an argument
+
+https://egghead.io/courses/getting-started-with-redux
+
+https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6
+
+https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a
+
+https://redux.js.org/
+
+https://github.com/reduxjs/react-redux
+
+https://reacttraining.com/react-router/
+- Dynamic Routing
+  - 
