@@ -37,7 +37,7 @@ export default class Detail extends Component {
                 <h6 className='metascore'>Metascore: {movie.Metascore}/100</h6>
                 <h6>IMDB: {movie.imdbRating}/10</h6>
                 <br></br>
-                <Link to='/'>Go Back</Link>
+                <Link className='home-link' to='/'>Go Back</Link>
               </div>
             </div>
           </div>

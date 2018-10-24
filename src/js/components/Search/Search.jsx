@@ -33,9 +33,9 @@ export default class Search extends Component {
         <div className='container'>
           <div className='row'>
             <div className='input-group'>
-              <input type='text' className='form-control' placeholder='e.g Thor: Ragnarok' value={movieTitle} onChange={this.handleInput} />
+              <input name='search' type='text' className='form-control' placeholder='e.g Thor: Ragnarok' value={movieTitle} onChange={this.handleInput} />
               <div className='input-group-append'>
-                <button className='btn btn-outline-secondary' type='button' onClick={this.handleSearch} type='submit'>Go!</button>
+                <button className='btn btn-outline-secondary' type='button' id='search' onClick={this.handleSearch} type='submit'>Go!</button>
               </div>
             </div>
           </div>

@@ -24,7 +24,7 @@ export default class Result extends Component {
                       <h4>{movie.Title}</h4>
                       <p>{movie.Year}</p>
                       <hr />
-                      <Link to={`/movie/${movie.imdbID}`}>More Information</Link>
+                      <Link className='detail-link' to={`/movie/${movie.imdbID}`}>More Information</Link>
                     </div>
                   </div>
                 </div>
