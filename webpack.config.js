@@ -3,6 +3,10 @@ const path = require('path');
 module.exports = {
   context: path.join(__dirname, '/src'),
 
+  devtool: 'source-map',
+
+  mode: 'development',
+
   entry: {
     javascript: './js/index'
   },

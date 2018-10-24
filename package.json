@@ -5,6 +5,7 @@
   "main": "server/index.js",
   "scripts": {
     "build": "npm run less && webpack",
+    "watch": "npm run build && webpack -w",
     "start": "npm run build && node server/index.js",
     "less": "lessc src/css/style.less dist/css/style.css",
     "lint": "eslint .",
@@ -19,6 +20,7 @@
     "babel-preset-stage-3": "^6.24.1",
     "babel-register": "^6.4.3",
     "bluebird": "^3.5.0",
+    "dotenv": "^6.1.0",
     "express": "^4.15.3",
     "file-loader": "^0.11.2",
     "json-loader": "^0.5.4",
